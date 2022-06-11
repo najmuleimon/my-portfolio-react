@@ -1,0 +1,85 @@
+footer .address {
+    background: #131313;
+    border-top: 1px solid rgba(179, 153, 95, 0.5);
+    padding: 60px 0 80px 0;
+}
+
+footer .address .a-img {
+    position: relative;
+    top: -100px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #131313;
+    z-index: 99;
+    width: fit-content;
+}
+
+footer .address .a-img img {
+    width: 150px;
+}
+
+footer .address p {
+    color: #c5c5c5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+footer .address .email {
+    text-align: left;
+    margin-top: 20px;
+    position: relative;
+}
+
+footer .address .email ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .address .t-r {
+    text-align: right;
+}
+
+footer .address .email p {
+    text-transform: capitalize;
+}
+
+footer .address .social .s-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer .address .social .s-icon li a .social-icons {
+    font-size: 20px;
+    color: #fff;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+footer .address .social .s-icon li a .social-icons:hover {
+    color: #b3995f;
+}
+
+/*------------------------------
+footer copy css start
+-------------------------------*/
+footer .copy {
+    background: #222;
+    border-top: 1px solid rgba(179, 153, 95, 0.5);
+}
+
+footer .copy p {
+    color: #c5c5c5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 0;
+}

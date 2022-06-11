@@ -36,23 +36,10 @@
     transition: all linear 0.4s;
 }
 
-.portfolio .p-item .p-image .p-overlay i {
-    color: #fff;
-    font-size: 18px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
 .portfolio .p-item .p-image .p-overlay .p-text p {
     font-size: 16px;
-    font-weight: 400;
-    color: #fff;
+    font-weight: 500;
+    color: #222;
     text-transform: capitalize;
     position: absolute;
     left: 10px;
@@ -63,6 +50,7 @@
     transform: scale(1);
 }
 
+.portfolio .p-item .p-image .p-overlay button,
 .portfolio .button {
     text-decoration: none;
     display: inline-block;
@@ -73,8 +61,22 @@
     text-transform: capitalize;
     font-size: 14px;
     font-weight: 500;
+    border: 0;
+    outline: none;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
 }
 
+.portfolio .p-item .p-image .p-overlay button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.portfolio .p-item .p-image .p-overlay button:hover,
 .portfolio .button:hover {
-    background: #b3995f;
+    background: #222;
 }

@@ -155,3 +155,24 @@
     -o-transform: rotateY(0deg);
     transform: rotateY(0deg);
 }
+
+
+@media(min-width: 320px) and (max-width: 575px) {
+    .service.service-item .service-icon h4 {
+        font-size: 20px;
+    }
+
+    .service .service-item {
+        height: 300px;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+    .service.service-item .service-icon h4 {
+        font-size: 20px;
+    }
+
+    .service .service-item {
+        height: 350px;
+    }
+}

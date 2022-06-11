@@ -1,9 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import useProjects from '../../../hooks/useProjects';
-import './Projects.css';
 
-const Projects = () => {
+const AllProjects = () => {
     const [projects] = useProjects();
     const navigate = useNavigate();
 
@@ -21,7 +20,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col-lg-12 main_img">
-                        <div className="row justify-content-center">
+                        <div className="row">
                             {
                                 projects.map(project => <div key={project.id} className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="p-item">
@@ -35,13 +34,8 @@ const Projects = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>).slice(0, 3)
+                                </div>)
                             }
-                        </div>
-                    </div>
-                    <div className="col-lg-12">
-                        <div className="text-center mt-5">
-                            <button className="button" onClick={() => navigate('/projects')}>More Projects</button>
                         </div>
                     </div>
                 </div>
@@ -50,4 +44,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default AllProjects;

@@ -26,3 +26,15 @@
     font-weight: 700;
     text-transform: capitalize;
 }
+
+@media(min-width: 320px) and (max-width: 575px) {
+    .title h2 {
+        font-size: 26px;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+    .title h2 {
+        font-size: 30px;
+    }
+}

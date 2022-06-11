@@ -1,0 +1,88 @@
+.skill {
+    background: #131313;
+    border-top: 1px solid rgba(179, 153, 95, 0.5);
+    padding: 60px 0 80px 0;
+}
+
+.skill .skillbar {
+    background: #222;
+    padding: 20px;
+}
+
+.skill .skillbar h3 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.skill .skillbar .circle .chart {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.skill .skillbar .circle .chart .value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.skill .skillbar .circle .chart .count-item {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 150px;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+    stroke: #fff !important;
+    stroke-width: 6px;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #b3995f !important;
+    stroke-width: 6px;
+}
+
+.skill .skillbar .circle .chart .percent {
+    color: #b3995f;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+
+.skill .skillbar .time {
+    margin-top: 20px;
+    position: relative;
+}
+
+.skill .skillbar .time ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 0;
+}
+
+
+.skill .skillbar .time h4 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+@media(min-width: 320px) and (max-width: 991px) {
+    .skill .skillbar {
+        margin-bottom: 30px;
+    }
+}

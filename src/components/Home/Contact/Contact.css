@@ -1,0 +1,46 @@
+.contact {
+    background: #131313;
+    border-top: 1px solid rgba(179, 153, 95, 0.5);
+    padding: 60px 0 80px 0;
+}
+
+.contact .contact-info .i-text {
+    width: 100%;
+    background: #222;
+    border: 0;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.contact .contact-info .i-text:focus {
+    outline: none;
+}
+
+.contact .contact-info textarea {
+    resize: none;
+}
+
+.contact .contact-info button {
+    background: #b3995f;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 3px;
+    line-height: 40px;
+    padding: 0 30px;
+    margin-top: 15px;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    transition: all linear 0.4s;
+}
+
+.contact .contact-info button:hover {
+    background: #222;
+    color: #b3995f;
+}

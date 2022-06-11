@@ -64,3 +64,68 @@
 .about .about-content .counter ul li span {
     color: #b3995f;
 }
+
+@media(min-width: 320px) and (max-width: 575px) {
+    .about .about-img {
+        width: 80%;
+    }
+
+    .about .about-content {
+        margin-top: 10%;
+    }
+
+    .about .about-content .content h3 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .about .about-content .counter ul li {
+        font-size: 14px;
+    }
+
+    .about .about-content .counter ul {
+        margin-right: 40px;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+    .about .about-img {
+        width: 60%;
+    }
+
+    .about .about-content {
+        margin-top: 10%;
+    }
+
+    .about .about-content .content h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .about .about-content .counter ul li {
+        font-size: 14px;
+    }
+
+    .about .about-content .counter ul {
+        margin-right: 40px;
+    }
+}
+
+@media(min-width: 767px) and (max-width: 991px) {
+    .about .about-content {
+        margin-top: 0;
+    }
+
+    .about .about-content .content h3 {
+        font-size: 17px;
+        line-height: 32px;
+    }
+
+    .about .about-content .counter ul li {
+        font-size: 14px;
+    }
+
+    .about .about-content .counter ul {
+        margin-right: 40px;
+    }
+}

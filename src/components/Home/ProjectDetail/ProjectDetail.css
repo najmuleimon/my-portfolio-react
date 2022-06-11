@@ -1,0 +1,88 @@
+.project-detail {
+    padding: 80px 0;
+    background: #131313;
+    border-top: 1px solid #b3995f;
+    border-bottom: 1px solid #b3995f;
+}
+
+.project-detail .p-item .p-image {
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.project-detail .p-item .p-image img {
+    width: 100%;
+}
+
+.project-detail .p-item h2 {
+    font-size: 28px;
+    line-height: 42px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.project-detail .p-item .p-desc {
+    padding: 20px 0;
+}
+
+.project-detail .p-item .p-desc li {
+    list-style: disc;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+    padding: 5px 0;
+}
+
+.project-detail .p-item .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 0;
+}
+
+.project-detail .p-item .buttons li a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 46px;
+    background: #444;
+    color: #fff;
+    padding: 0 16px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.project-detail .p-item .buttons li a:hover {
+    background: #b3995f;
+}
+
+
+@media(min-width: 320px) and (max-width: 575px) {
+    .project-detail .p-item h2 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .project-detail .p-item .buttons {
+        display: block;
+    }
+
+    .project-detail .p-item .buttons li:not(:last-child) {
+        padding-bottom: 10px;
+    }
+
+    .project-detail .p-item .p-image {
+        margin-bottom: 30px;
+    }
+}
+
+@media(min-width: 575px) and (max-width: 991px) {
+    .project-detail .p-item .p-image {
+        margin-bottom: 30px;
+    }
+}
