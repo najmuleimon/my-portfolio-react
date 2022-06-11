@@ -1,0 +1,87 @@
+[
+    {
+        "id": "1",
+        "name": "Jontro (Manufacturer Website)",
+        "details": [
+            "Technology used to make this website are Reactjs, Firebase authentication system, React Firebase Hooks, React Icons, React Router Dom, Tailwind CSS, Daisy UI(Tailwind CSS component library), React hook form, Node.js, Mongo DB, Express.js.",
+            "User can sign up or sign in using email or google.",
+            "Both customer and admin have dashboard to manage orders, products, reviews etc.",
+            "Admin can add or remove products, make another user an admin, user can order products, give review about products."
+        ],
+        "images": [
+            "https://i.ibb.co/kBw7hK1/manufacturer.png",
+            "https://i.ibb.co/xDpJRsh/manufacturer1.png",
+            "https://i.ibb.co/1Xr0BQq/manufacturer2.png",
+            "https://i.ibb.co/kcxSK01/manufacturer3.png"
+        ],
+        "live": "https://manufacturer-ceec3.web.app",
+        "client": "https://github.com/najmuleimon/manufacturer-website-client",
+        "server": "https://github.com/najmuleimon/manufacturer-website-server"
+    },
+    {
+        "id": "2",
+        "name": "Pro Tech (Electronics Warehouse management website)",
+        "details": [
+            "This website is made using Reactjs, Firebase authentication system, React Firebase Hooks, Axios, React Bootstrap, React Icons, React Router Dom, React Toastify.",
+            "User can sign up or sign in using email or google.",
+            "User can add or remove inventory items, update inventories, pagination in manage inventory page."
+        ],
+        "images": [
+            "https://i.ibb.co/gy0rBKB/warehouse.png",
+            "https://i.ibb.co/HtMdCL8/warehouse1.png",
+            "https://i.ibb.co/HrFXc0s/warehouse2.png",
+            "https://i.ibb.co/ys1KKrj/warehouse3.png"
+        ],
+        "live": "https://warehouse-20bde.web.app/",
+        "client": "https://github.com/najmuleimon/warehouse-management-client",
+        "server": "https://github.com/najmuleimon/warehouse-management-server"
+    },
+    {
+        "id": "3",
+        "name": "Muscle Magic (Personal Gym service provider website)",
+        "details": [
+            "This website is made using Reactjs, Firebase authentication system, React Firebase Hooks, React Bootstrap, React Icons, React Router Dom, React Toastify.",
+            "User can Register using their email and password and login into this website. User can also Register or Login using their Google account.",
+            "User can buy training services from the service section. The Checkout page is protected by private routing system. User can't go to the checkout page without login to this website."
+        ],
+        "images": [
+            "https://i.ibb.co/m65Zz07/gym-trainer.png",
+            "https://i.ibb.co/bsb8KzC/gym-trainer1.png",
+            "https://i.ibb.co/X7b4VRC/gym-trainer2.png"
+        ],
+        "live": "https://gym-trainer-e2bb6.web.app",
+        "client": "https://github.com/najmuleimon/independent-service-provider-react-spa"
+    },
+    {
+        "id": "4",
+        "name": "Rewatch (Product Review Website)",
+        "details": [
+            "The website is about Watch products Review.",
+            "This is a Single Page React Application.",
+            "It has a navigation with all the pages links. We can navigate any pages using this navbar."
+        ],
+        "images": [
+            "https://i.ibb.co/XzDNtzW/watch-review.png",
+            "https://i.ibb.co/LC65NNq/watch-review1.png",
+            "https://i.ibb.co/XyGQrSp/watch-review2.png"
+        ],
+        "live": "https://rewatch-review-najmul.netlify.app/",
+        "client": "https://github.com/najmuleimon/product-review-react-spa"
+    },
+    {
+        "id": "5",
+        "name": "Fresh Grocery Store (Shopping Cart Website)",
+        "details": [
+            "The website is about product shopping.",
+            "This is a Single Page React Application.",
+            "User can add products to cart.",
+            "user can pick a random items from cart."
+        ],
+        "images": [
+            "https://i.ibb.co/1qfNXDP/fresh-grocery.png",
+            "https://i.ibb.co/9y6VHjk/fresh-grocery1.png"
+        ],
+        "live": "https://fresh-grocery-najmul.netlify.app/",
+        "client": "https://github.com/najmuleimon/fresh-grocery-react-spa"
+    }
+]

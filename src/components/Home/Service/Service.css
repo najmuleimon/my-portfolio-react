@@ -1,0 +1,157 @@
+.service {
+    padding: 80px 0;
+    background: #131313;
+    border-top: 1px solid #b3995f;
+}
+
+.service .service-item {
+    height: 250px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    position: relative;
+}
+
+
+.service .service-item .service-icon {
+    height: 100%;
+    width: 100%;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    transition: all linear 0.4s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    flex-direction: column;
+    display: block;
+    background: #222;
+    border: 1px solid #b3995f;
+}
+
+.service .service-item .service-icon .icons {
+    margin-top: 14%;
+    font-size: 50px;
+    color: #b3995f;
+}
+
+.service .service-item .service-text .icons {
+    font-size: 50px;
+    color: #b3995f;
+}
+
+.service .service-item .service-icon h4 {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 30px;
+    position: relative;
+}
+
+.service .service-item .service-icon h4:after {
+    bottom: -15px;
+    position: absolute;
+    height: 1px;
+    width: 30px;
+    background: #b3995f;
+    content: '';
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.service .service-item:hover .service-icon {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.service .service-item .service-text {
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    transition: all linear 0.4s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff;
+    display: block;
+}
+
+.service .service-item .service-text h4 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #222;
+    font-weight: 700;
+}
+
+.service .service-item .service-text p {
+    color: #444;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.service .service-item .service-text p:after {
+    bottom: -15px;
+    position: absolute;
+    height: 1px;
+    width: 30px;
+    background: #b3995f;
+    content: '';
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.service .service-item:hover .service-text {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
