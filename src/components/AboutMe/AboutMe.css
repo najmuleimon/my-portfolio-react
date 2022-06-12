@@ -1,0 +1,57 @@
+.about-me .card {
+    background: transparent;
+    border: 1px solid #b3995f;
+    padding: 20px;
+}
+
+.about-me .card:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.about-me .card h3 {
+    font-size: 28px;
+    line-height: 42px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.about-me .card h3 span {
+    color: #b3995f;
+}
+
+.about-me .card h4 {
+    font-size: 24px;
+    line-height: 38px;
+    color: #b3995f;
+    font-weight: 500;
+}
+
+
+
+.about-me .card p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.about-me .card ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.about-me .card li {
+    list-style: disc;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+    padding: 5px 0;
+}
+
+@media(min-width: 320px) and (max-width: 575px) {
+    .about-me .card h3 {
+        font-size: 21px;
+    }
+}

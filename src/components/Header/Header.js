@@ -23,6 +23,8 @@ const Header = () => {
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="ms-auto">
                                     <NavLink to="/" className={({ isActive }) => (isActive ? "active-link nav-link" : "nav-link")}>Home</NavLink>
+                                    <NavLink to="/about" className={({ isActive }) => (isActive ? "active-link nav-link" : "nav-link")}>About Me</NavLink>
+                                    <NavLink to="/blog" className={({ isActive }) => (isActive ? "active-link nav-link" : "nav-link")}>Blogs</NavLink>
                                     <NavLink to="/projects" className={({ isActive }) => (isActive ? "active-link nav-link" : "nav-link")}>Portfolio</NavLink>
                                 </Nav>
                             </Navbar.Collapse>
